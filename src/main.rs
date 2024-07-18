@@ -1,9 +1,6 @@
-mod midNum;
+mod reverseNum;
 fn main() {
-  let n1 = vec![1,2];
-  let n2 = vec![3,4];
-  let num = midNum::find_median_sorted_arrays(n1.clone(), n2.clone());
-  println!("{:?},{:?},{:?}", n1, n2, num);
-  println!("{}", 5/2);
-  println!("{}", 1/2);
+  use reverseNum::reverse;
+  let x = 1534236469;
+  println!("{:?}", reverse(x)) 
 }
