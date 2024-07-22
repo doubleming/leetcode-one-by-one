@@ -1,6 +1,6 @@
-mod reverseNum;
+mod three_sum;
 fn main() {
-  use reverseNum::reverse;
-  let x = 1534236469;
-  println!("{:?}", reverse(x)) 
+  use three_sum::Solution;
+  let temp = vec![0,0,0]; 
+  println!("{:?}", Solution::three_sum(temp))
 }
